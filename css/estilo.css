@@ -1,0 +1,112 @@
+.container{
+
+  color: white;
+  font-size: 1.15em;
+  width: 80%;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mostrar{
+  display: none;
+}
+
+.passar_mouse:hover .mostrar{
+  display:block;
+  background-color: #d0d0d0;
+  color: black;
+  border-radius: 0.25em;
+  font-size: 0.7em;
+  width: 25em;
+  height: 1.5em;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: Arial;
+  word-wrap: break-word;
+}
+#cursos li:hover{
+  cursor: pointer;
+}
+#menu{
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+#menu ul li{
+  display: inline;
+}
+#menu ul li a {
+    padding: 0.6em 0.85em;
+    display: inline-block;
+
+    /* visual do link */
+    color: #FFF;
+    text-decoration: none;
+    border-bottom:3px solid #a2a2a2;
+    font-size: 1.1em;
+}
+#menu ul li a:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-bottom:3px solid #53666c;
+}
+#dadosPesssoais{
+  text-align: justify;
+  margin-left: 5em;
+}
+#sobreMim aside{
+  text-align: justify;
+  word-wrap: normal;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+#botao{
+  color: white;
+  font-size: 1.1em;
+}
+#botao:hover{
+  font-size: 1.1em;
+  color: black;
+}
+body {
+  margin:0;
+  padding:0;
+  text-align:center;
+  background-image: linear-gradient(180deg,#292929, #111111);
+  background-attachment: fixed;
+}
+ul{
+  display: inline-block;
+}
+li{
+  text-align: justify;
+}
+img{
+  border-radius: 500px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  background-image: linear-gradient(#1C1C1C	, #696969);
+  width: 20em;
+  height: 3em;
+}
+button:hover{
+  width: 20em;
+  height: 3em;
+  background-image: linear-gradient(#D3D3D3	, #DCDCDC	);
+}
+footer{
+  border-top: 0.2em solid #000;
+  color: white;
+  font-size: 1.1em;
+  bottom:0;
+  opacity: 50%;
+  text-align: center;
+}
